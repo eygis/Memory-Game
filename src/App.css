@@ -3,6 +3,34 @@
     padding: 0;
   }
 
-h3 {
-    color: green;
+body {
+  background-color: grey;
+  text-align: center;
+}
+
+h1 {
+    color: yellow;
+    margin: 1rem;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: solid black;
+  background-color: white;
+  width: 50%;
+  margin: auto
+}
+
+.tileWrapper {
+  margin: 1rem;
+}
+
+.colorTile {
+  margin: 1rem;
+}
+
+.colorImage {
+  border: solid grey;
+  width: 100%;
 }
