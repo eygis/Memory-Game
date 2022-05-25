@@ -8,7 +8,7 @@ class Tile extends React.Component {
             <div className='tileWrapper'>
             <h4>{this.props.name}</h4>
             <div className='colorTile'>
-                <img className='colorImage' src={this.props.source}></img>
+                <img className='colorImage' id={this.props.name} src={this.props.source} onClick={(e) => this.props.shuffle(e)}></img>
             </div>
             </div>
         )
